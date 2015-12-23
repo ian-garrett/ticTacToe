@@ -15,8 +15,8 @@
 ```
 curl --request POST --header "Content-Type: application/json" -d '{
   "user": {
-    "username": "johndoe",
-    "password": "foobarbaz"
+    "username": "iangarrett",
+    "password": "yaycasper"
   }
 }' http://localhost:3000/users
 ```

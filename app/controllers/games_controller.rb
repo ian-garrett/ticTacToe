@@ -35,7 +35,7 @@ class GamesController < ApplicationController
     return render json: { errors: 'move and location are required' }, status: 422 unless move_and_location?
     game.play(params[:move].to_s, params[:location].to_s)
     if game.save
-      render json: game, status: 201, location: [game]
+      render json: [game,"GAME STATUS: "+game.game_over_message], status: 201
     else
       render json: { errors: game.errors }, status: 422
     end
@@ -50,4 +50,10 @@ class GamesController < ApplicationController
   def game_params
     params.require(:game).permit(:player_1_id, :player_2_id, :move, :location)
   end
+
+  def status #function to check if a user has won the game
+    game = Game.find(params[:id])
+    render json: game.game_over_message, status: 200
+  end
+
 end

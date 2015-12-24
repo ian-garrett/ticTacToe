@@ -6,20 +6,23 @@
 `git clone repo`
 `cd tictactoeapi`
 `rake db:migrate`
-`bundle exec rake db:migrate`
+`'bundle exec rake db:migrate`
 `rails s`
+
+## What I added
+1) User authentication required for most moved (see curl commands)
+2) End of game information report (Who won, game was a tie)
+3) End of game lockout (game cannot be updated once game has ended
+4) Force correct turn (one player cannot go twice in a row)
+=======
+
 
 ## What I added
 1. User authentication
 2. End of game information report (Who won, game was a tie)
 3. End of game lockout (game cannot be updated once game has ended)
 4. Force correct turn (one player cannot go twice in a row)
-
-## How to check end of game info
-'''
-curl -X POST -H 'content-type: application/json' -d '{"username":<username>,"password":<password>}' http://localhost:3000/games/<game>/status
-'''
-
+>>>>>>> d97839e98694c1bd10699611f06ac0afb2692db4
 
 ## User Curl Commands
 
@@ -120,12 +123,10 @@ example response
 
 ```
 curl --request PATCH --header "Content-Type: application/json" -d '{
-  "username": "johndoe",
-  "password": "foobarbaz"
   "game": {
-    "player_2_id": "2"
+    "player_2_id": "4"
   }
-}' http://localhost:3000/games/1
+}' http://localhost:3000/games/3
 ```
 
 example response

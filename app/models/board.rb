@@ -13,7 +13,7 @@ class Board < ActiveRecord::Base
       grid[y][x] = value
       save
     else
-      'cannot overide cell value'
+      :unable_to_set
     end
   end
 
@@ -21,6 +21,23 @@ class Board < ActiveRecord::Base
     return :winner if winner?
     return :tie if tie?
     'Game in Progress'
+  end
+
+  def winning_player
+    return :player_1 if who_won == 'x'
+    :player_2
+  end
+
+  # returns :player_1 or :player_2 depending on who needs to play next (based on the number of x's and o's already on the board)
+  def next_player
+    count1 = 0
+    count2 = 0
+    grid.flatten.each do |move|
+      count1 += 1 if move == 'x'
+      count2 += 1 if move == 'o'
+    end
+    return :player_1 if count1 <= count2
+    :player_2
   end
 
   private
@@ -39,6 +56,13 @@ class Board < ActiveRecord::Base
       return true if winning_position.all_same?
     end
     false
+  end
+
+  def who_won
+    winning_combinations.each do |winning_position|
+      next if winning_position.all_empty?
+      return winning_position[0] if winning_position.all_same?
+    end
   end
 
   def winning_combinations
@@ -64,17 +88,4 @@ class Board < ActiveRecord::Base
   def right_diagonal
     [get_cell(0, 2), get_cell(1, 1), get_cell(2, 0)]
   end
-
-  #function to decide which player should go next
-  def next_player
-    count1 = 0
-    count2 = 0
-    grid.flatten.each do |move|
-      count1 += 1 if move == 'x'
-      count2 += 1 if move == 'o'
-    end
-    return :player_1 if count1 <= count2
-    :player_2
-  end
-
 end

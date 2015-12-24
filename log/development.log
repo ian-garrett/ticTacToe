@@ -4085,3 +4085,1101 @@ NoMethodError (undefined method `authenticate' for #<Class:0x007f9be826df50>):
   Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
   Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.7ms)
 Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x007f9be443bae8 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x007f9be443b2f0 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x007f9be4441e20 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+Started GET "/games" for ::1 at 2015-12-23 11:39:39 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+ActionController::RoutingError (No route matches [GET] "/games"):
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/static.rb:116:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.3ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.8ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.0ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (11.3ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (22.8ms)
+
+
+Started GET "/games/1" for ::1 at 2015-12-23 11:41:40 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+DEPRECATION WARNING: ** Notice: embed is deprecated. **
+The use of .embed method on a Serializer will be soon removed, as this should have a global scope and not a class scope.
+Please use the global .setup method instead:
+ActiveModel::Serializer.setup do |config|
+  config.embed = :ids
+  config.embed_in_root = false
+end
+ (called from <class:UserSerializer> at /Users/iangarrett/Desktop/ticTacToe/app/serializers/user_serializer.rb:2)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 45ms (Views: 23.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/games/1" for ::1 at 2015-12-23 11:41:44 -0800
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/games/1" for ::1 at 2015-12-23 11:45:13 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+DEPRECATION WARNING: ** Notice: embed is deprecated. **
+The use of .embed method on a Serializer will be soon removed, as this should have a global scope and not a class scope.
+Please use the global .setup method instead:
+ActiveModel::Serializer.setup do |config|
+  config.embed = :ids
+  config.embed_in_root = false
+end
+ (called from <class:UserSerializer> at /Users/iangarrett/Desktop/ticTacToe/app/serializers/user_serializer.rb:2)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 43ms (Views: 21.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/games/1/make_move" for ::1 at 2015-12-23 11:59:47 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"location"=>"4", "move"=>"x", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.3ms)
+
+NoMethodError (undefined method `authenticate' for #<Class:0x000000059ef110>):
+  app/controllers/games_controller.rb:39:in `make_move'
+
+
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.8ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x000000036a2b30 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x000000036a2798 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x00000003692438 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/games/1/make_move" for ::1 at 2015-12-24 00:00:17 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"location"=>"4", "move"=>"x", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `authenticate' for #<Class:0x000000059ef110>):
+  app/controllers/games_controller.rb:39:in `make_move'
+
+
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.7ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x000000036a2b30 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x000000036a2798 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x00000003692438 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/games/1/make_move" for ::1 at 2015-12-24 00:00:51 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"4", "move"=>"x", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `authenticate' for #<Class:0x000000059ef110>):
+  app/controllers/games_controller.rb:39:in `make_move'
+
+
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.9ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x000000036a2b30 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x000000036a2798 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x00000003692438 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/games/1/make_move" for ::1 at 2015-12-24 00:02:34 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"4", "move"=>"x", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms)
+
+NoMethodError (undefined method `authenticate' for #<Class:0x00000002574fc0>):
+  app/controllers/games_controller.rb:39:in `make_move'
+
+
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.9ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x000000025f7970 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x000000025f71c8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x000000025e3600 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/games/1/make_move" for ::1 at 2015-12-24 00:04:14 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"4", "move"=>"x", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "iangarrett"]]
+  [1m[36mGame Load (0.1ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBoard Load (0.1ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.8ms)
+
+NoMethodError (undefined method `size' for nil:NilClass):
+  app/models/board.rb:28:in `next_player'
+  app/models/game.rb:15:in `next_player'
+  app/controllers/games_controller.rb:44:in `make_move'
+
+
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.8ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x000000025f7970 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x000000025f71c8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x000000025e3600 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/games/1/make_move" for ::1 at 2015-12-24 00:05:26 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"4", "move"=>"x", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "iangarrett"]]
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.7ms)
+
+NoMethodError (undefined method `size' for nil:NilClass):
+  app/models/board.rb:29:in `next_player'
+  app/models/game.rb:15:in `next_player'
+  app/controllers/games_controller.rb:44:in `make_move'
+
+
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.7ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x000000025f7970 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x000000025f71c8 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x000000025e3600 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/games/1/make_move" for ::1 at 2015-12-24 00:05:36 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"4", "move"=>"x", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "iangarrett"]]
+  [1m[36mGame Load (0.1ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBoard Load (0.1ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.8ms)
+
+NoMethodError (undefined method `size' for nil:NilClass):
+  app/models/board.rb:29:in `next_player'
+  app/models/game.rb:15:in `next_player'
+  app/controllers/games_controller.rb:44:in `make_move'
+
+
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (13.6ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x00000003e53e38 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x00000003e53668 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x00000003e303c0 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/games/1/make_move" for ::1 at 2015-12-24 00:07:26 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"4", "move"=>"x", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "iangarrett"]]
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 422 Unprocessable Entity in 11ms (Views: 1.0ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/games/1/make_move" for ::1 at 2015-12-24 00:11:36 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"location"=>"4", "move"=>"x", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT 1
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.4ms)
+
+NoMethodError (undefined method `password' for nil:NilClass):
+  app/models/user.rb:9:in `authenticate'
+  app/controllers/games_controller.rb:39:in `make_move'
+
+
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.6ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (12.8ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x00000003e53e38 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x00000003e53668 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x00000003e303c0 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started POST "/games/1/make_move" for ::1 at 2015-12-24 00:13:39 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"location"=>"4", "move"=>"x", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT 1[0m
+Completed 403 Forbidden in 4ms (Views: 1.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/games/1/make_move" for ::1 at 2015-12-24 00:31:00 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"location"=>"4", "move"=>"x", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" IS NULL LIMIT 1
+Completed 403 Forbidden in 2ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/games/1/make_move" for ::1 at 2015-12-24 00:31:16 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"4", "move"=>"x", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "iangarrett"]]
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 422 Unprocessable Entity in 10ms (Views: 1.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/games/1" for ::1 at 2015-12-24 00:31:37 -0800
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+DEPRECATION WARNING: ** Notice: embed is deprecated. **
+The use of .embed method on a Serializer will be soon removed, as this should have a global scope and not a class scope.
+Please use the global .setup method instead:
+ActiveModel::Serializer.setup do |config|
+  config.embed = :ids
+  config.embed_in_root = false
+end
+ (called from <class:UserSerializer> at /Users/iangarrett/Desktop/ticTacToe/app/serializers/user_serializer.rb:2)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/games/1/status" for ::1 at 2015-12-24 00:52:37 -0800
+Processing by GamesController#status as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+Completed 403 Forbidden in 2ms (Views: 1.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/games/1/status" for ::1 at 2015-12-24 00:53:21 -0800
+Processing by GamesController#status as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+Completed 403 Forbidden in 1ms (Views: 1.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/games/1/status" for ::1 at 2015-12-24 00:54:06 -0800
+Processing by GamesController#status as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 1]]
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.5ms)
+
+NameError (undefined local variable or method `user_id' for #<GamesController:0x007f243d86d798>):
+  app/controllers/games_controller.rb:39:in `status'
+
+
+
+
+Started POST "/games/1/status" for ::1 at 2015-12-24 00:54:15 -0800
+Processing by GamesController#status as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mGame Load (0.1ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBoard Load (0.1ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 9ms (Views: 1.1ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/games/1/status" for ::1 at 2015-12-24 00:54:26 -0800
+Processing by GamesController#status as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "iangarrett"]]
+  [1m[35mGame Load (0.2ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 14ms (Views: 1.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/games/1/status" for ::1 at 2015-12-24 00:58:29 -0800
+Processing by GamesController#status as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "id"=>"1", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "iangarrett"]]
+  [1m[36mGame Load (0.1ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBoard Load (0.1ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 13ms (Views: 1.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/users" for ::1 at 2015-12-24 00:59:29 -0800
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"other", "password"=>"[FILTERED]"}}
+Can't verify CSRF token authenticity
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms)
+
+LoadError (cannot load such file -- active_model/errors):
+  app/controllers/users_controller.rb:10:in `create'
+
+
+
+
+Started POST "/users" for ::1 at 2015-12-24 01:01:45 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#create as */*
+  Parameters: {"user"=>{"username"=>"other", "password"=>"[FILTERED]"}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."username" = 'other' LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("username", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["username", "other"], ["password", "test"], ["created_at", "2015-12-24 01:01:45.912375"], ["updated_at", "2015-12-24 01:01:45.912375"]]
+  [1m[36m (90.8ms)[0m  [1mcommit transaction[0m
+DEPRECATION WARNING: ** Notice: embed is deprecated. **
+The use of .embed method on a Serializer will be soon removed, as this should have a global scope and not a class scope.
+Please use the global .setup method instead:
+ActiveModel::Serializer.setup do |config|
+  config.embed = :ids
+  config.embed_in_root = false
+end
+ (called from <class:UserSerializer> at /Users/iangarrett/Desktop/ticTacToe/app/serializers/user_serializer.rb:2)
+Completed 201 Created in 111ms (Views: 3.5ms | ActiveRecord: 91.4ms)
+
+
+Started POST "/games" for ::1 at 2015-12-24 01:02:24 -0800
+Processing by GamesController#create as */*
+  Parameters: {"game"=>{"player_1_id"=>"1", "player_2_id"=>"2"}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "boards" ("grid") VALUES (?)[0m  [["grid", "---\n- - ''\n  - ''\n  - ''\n- - ''\n  - ''\n  - ''\n- - ''\n  - ''\n  - ''\n"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "games" ("player_1_id", "player_2_id", "board_id", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["player_1_id", 1], ["player_2_id", 2], ["board_id", 2], ["status", "winner"], ["created_at", "2015-12-24 01:02:24.069805"], ["updated_at", "2015-12-24 01:02:24.069805"]]
+  [1m[36m (76.1ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 103ms (Views: 2.2ms | ActiveRecord: 77.2ms)
+
+
+Started POST "/games/2/make_move" for ::1 at 2015-12-24 01:02:46 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"id"=>"2", "game"=>{}}
+Can't verify CSRF token authenticity
+Completed 403 Forbidden in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/games/2/make_move" for ::1 at 2015-12-24 01:02:58 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "id"=>"2", "game"=>{}}
+Can't verify CSRF token authenticity
+Completed 403 Forbidden in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/games/2/make_move" for ::1 at 2015-12-24 01:03:11 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "id"=>"2", "game"=>{}}
+Can't verify CSRF token authenticity
+Completed 403 Forbidden in 2ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/games/2/make_move" for ::1 at 2015-12-24 01:03:34 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "move"=>"x", "location"=>"1", "id"=>"2", "game"=>{}}
+Can't verify CSRF token authenticity
+Completed 403 Forbidden in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/games/2/make_move" for ::1 at 2015-12-24 01:03:45 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "move"=>"x", "location"=>"1", "id"=>"2", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "other"]]
+  [1m[36mGame Load (0.2ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mBoard Load (0.1ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 2]]
+Completed 422 Unprocessable Entity in 22ms (Views: 1.7ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/games/2/make_move" for ::1 at 2015-12-24 01:03:56 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "move"=>"x", "location"=>"1", "id"=>"2", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "other"]]
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 422 Unprocessable Entity in 13ms (Views: 1.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/games/2/make_move" for ::1 at 2015-12-24 01:06:38 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "move"=>"x", "location"=>"1", "id"=>"2", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "other"]]
+  [1m[36mGame Load (0.1ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mBoard Load (0.1ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 2]]
+Completed 422 Unprocessable Entity in 13ms (Views: 1.1ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/games/2/make_move" for ::1 at 2015-12-24 01:06:43 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "location"=>"1", "id"=>"2", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "other"]]
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 422 Unprocessable Entity in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/games/2/make_move" for ::1 at 2015-12-24 01:07:09 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"1", "id"=>"2", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "iangarrett"]]
+  [1m[36mGame Load (0.0ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mBoard Load (0.0ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 2]]
+Completed 422 Unprocessable Entity in 2ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/games/2/make_move" for ::1 at 2015-12-24 01:08:45 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"1", "id"=>"2", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "iangarrett"]]
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "boards" SET "grid" = ? WHERE "boards"."id" = ?[0m  [["grid", "---\n- - x\n  - ''\n  - ''\n- - ''\n  - ''\n  - ''\n- - ''\n  - ''\n  - ''\n"], ["id", 2]]
+  [1m[35m (114.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  commit transaction
+DEPRECATION WARNING: ** Notice: embed is deprecated. **
+The use of .embed method on a Serializer will be soon removed, as this should have a global scope and not a class scope.
+Please use the global .setup method instead:
+ActiveModel::Serializer.setup do |config|
+  config.embed = :ids
+  config.embed_in_root = false
+end
+ (called from <class:UserSerializer> at /Users/iangarrett/Desktop/ticTacToe/app/serializers/user_serializer.rb:2)
+Completed 201 Created in 134ms (Views: 1.7ms | ActiveRecord: 115.8ms)
+
+
+Started GET "/games/2" for ::1 at 2015-12-24 01:09:49 -0800
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mGame Load (0.1ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mBoard Load (0.1ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+DEPRECATION WARNING: ** Notice: embed is deprecated. **
+The use of .embed method on a Serializer will be soon removed, as this should have a global scope and not a class scope.
+Please use the global .setup method instead:
+ActiveModel::Serializer.setup do |config|
+  config.embed = :ids
+  config.embed_in_root = false
+end
+ (called from <class:UserSerializer> at /Users/iangarrett/Desktop/ticTacToe/app/serializers/user_serializer.rb:2)
+Completed 200 OK in 23ms (Views: 12.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/games/2/status" for ::1 at 2015-12-24 01:09:57 -0800
+
+ActionController::RoutingError (No route matches [GET] "/games/2/status"):
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/static.rb:116:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.9ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.5ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (11.3ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (22.7ms)
+
+
+Started POST "/games/2/status" for ::1 at 2015-12-24 01:10:03 -0800
+Processing by GamesController#status as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"1", "id"=>"2", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "iangarrett"]]
+  [1m[35mGame Load (0.0ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/games/2/status" for ::1 at 2015-12-24 01:10:12 -0800
+Processing by GamesController#status as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "location"=>"1", "id"=>"2", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "other"]]
+  [1m[36mGame Load (0.0ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mBoard Load (0.0ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/games/2/status" for ::1 at 2015-12-24 01:10:16 -0800
+
+ActionController::RoutingError (No route matches [GET] "/games/2/status"):
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/static.rb:116:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (19.3ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (11.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (22.1ms)
+
+
+Started GET "/games/2" for ::1 at 2015-12-24 01:10:18 -0800
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mGame Load (0.1ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mBoard Load (0.1ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 6ms (Views: 3.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/games/2" for ::1 at 2015-12-24 01:11:05 -0800
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mGame Load (0.1ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mBoard Load (0.1ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+DEPRECATION WARNING: ** Notice: embed is deprecated. **
+The use of .embed method on a Serializer will be soon removed, as this should have a global scope and not a class scope.
+Please use the global .setup method instead:
+ActiveModel::Serializer.setup do |config|
+  config.embed = :ids
+  config.embed_in_root = false
+end
+ (called from <class:UserSerializer> at /Users/iangarrett/Desktop/ticTacToe/app/serializers/user_serializer.rb:2)
+Completed 200 OK in 19ms (Views: 11.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/games/2" for ::1 at 2015-12-24 01:11:11 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[35mGame Load (0.2ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+DEPRECATION WARNING: ** Notice: embed is deprecated. **
+The use of .embed method on a Serializer will be soon removed, as this should have a global scope and not a class scope.
+Please use the global .setup method instead:
+ActiveModel::Serializer.setup do |config|
+  config.embed = :ids
+  config.embed_in_root = false
+end
+ (called from <class:UserSerializer> at /Users/iangarrett/Desktop/ticTacToe/app/serializers/user_serializer.rb:2)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 47ms (Views: 21.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/games/2" for ::1 at 2015-12-24 01:11:14 -0800
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/games/2" for ::1 at 2015-12-24 01:11:22 -0800
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+DEPRECATION WARNING: ** Notice: embed is deprecated. **
+The use of .embed method on a Serializer will be soon removed, as this should have a global scope and not a class scope.
+Please use the global .setup method instead:
+ActiveModel::Serializer.setup do |config|
+  config.embed = :ids
+  config.embed_in_root = false
+end
+ (called from <class:UserSerializer> at /Users/iangarrett/Desktop/ticTacToe/app/serializers/user_serializer.rb:2)
+Completed 200 OK in 32ms (Views: 11.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/games/2" for ::1 at 2015-12-24 01:11:30 -0800
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+DEPRECATION WARNING: ** Notice: embed is deprecated. **
+The use of .embed method on a Serializer will be soon removed, as this should have a global scope and not a class scope.
+Please use the global .setup method instead:
+ActiveModel::Serializer.setup do |config|
+  config.embed = :ids
+  config.embed_in_root = false
+end
+ (called from <class:UserSerializer> at /Users/iangarrett/Desktop/ticTacToe/app/serializers/user_serializer.rb:2)
+Completed 200 OK in 19ms (Views: 11.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/games/2" for ::1 at 2015-12-24 01:11:31 -0800
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/games/2" for ::1 at 2015-12-24 01:11:46 -0800
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+DEPRECATION WARNING: ** Notice: embed is deprecated. **
+The use of .embed method on a Serializer will be soon removed, as this should have a global scope and not a class scope.
+Please use the global .setup method instead:
+ActiveModel::Serializer.setup do |config|
+  config.embed = :ids
+  config.embed_in_root = false
+end
+ (called from <class:UserSerializer> at /Users/iangarrett/Desktop/ticTacToe/app/serializers/user_serializer.rb:2)
+Completed 200 OK in 19ms (Views: 11.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/games/2" for ::1 at 2015-12-24 01:11:47 -0800
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/games/2" for ::1 at 2015-12-24 01:12:44 -0800
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+DEPRECATION WARNING: ** Notice: embed is deprecated. **
+The use of .embed method on a Serializer will be soon removed, as this should have a global scope and not a class scope.
+Please use the global .setup method instead:
+ActiveModel::Serializer.setup do |config|
+  config.embed = :ids
+  config.embed_in_root = false
+end
+ (called from <class:UserSerializer> at /Users/iangarrett/Desktop/ticTacToe/app/serializers/user_serializer.rb:2)
+Completed 200 OK in 20ms (Views: 12.1ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/games" for ::1 at 2015-12-24 01:14:47 -0800
+Processing by GamesController#create as */*
+  Parameters: {"game"=>{"player_1_id"=>"1", "player_2_id"=>"2"}}
+Can't verify CSRF token authenticity
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "boards" ("grid") VALUES (?)[0m  [["grid", "---\n- - ''\n  - ''\n  - ''\n- - ''\n  - ''\n  - ''\n- - ''\n  - ''\n  - ''\n"]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "games" ("player_1_id", "player_2_id", "board_id", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["player_1_id", 1], ["player_2_id", 2], ["board_id", 3], ["status", "Game in Progress"], ["created_at", "2015-12-24 01:14:47.649756"], ["updated_at", "2015-12-24 01:14:47.649756"]]
+  [1m[36m (90.8ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 99ms (Views: 1.7ms | ActiveRecord: 91.2ms)
+
+
+Started POST "/games/3/make_move" for ::1 at 2015-12-24 01:15:23 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"1", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "iangarrett"]]
+  [1m[36mGame Load (0.0ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mBoard Load (0.1ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  UPDATE "boards" SET "grid" = ? WHERE "boards"."id" = ?  [["grid", "---\n- - x\n  - ''\n  - ''\n- - ''\n  - ''\n  - ''\n- - ''\n  - ''\n  - ''\n"], ["id", 3]]
+  [1m[36m (149.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 157ms (Views: 0.5ms | ActiveRecord: 150.4ms)
+
+
+Started POST "/games/3/make_move" for ::1 at 2015-12-24 01:15:32 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"2", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "iangarrett"]]
+  [1m[36mGame Load (0.0ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mBoard Load (0.0ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 3]]
+Completed 422 Unprocessable Entity in 3ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/games/3/make_move" for ::1 at 2015-12-24 01:15:39 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "location"=>"2", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "other"]]
+  [1m[35mGame Load (0.0ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "boards" SET "grid" = ? WHERE "boards"."id" = ?[0m  [["grid", "---\n- - x\n  - o\n  - ''\n- - ''\n  - ''\n  - ''\n- - ''\n  - ''\n  - ''\n"], ["id", 3]]
+  [1m[35m (62.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  commit transaction
+Completed 201 Created in 69ms (Views: 0.6ms | ActiveRecord: 63.2ms)
+
+
+Started POST "/games/3/make_move" for ::1 at 2015-12-24 01:15:51 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"4", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "iangarrett"]]
+  [1m[35mGame Load (0.0ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "boards" SET "grid" = ? WHERE "boards"."id" = ?[0m  [["grid", "---\n- - x\n  - o\n  - ''\n- - x\n  - ''\n  - ''\n- - ''\n  - ''\n  - ''\n"], ["id", 3]]
+  [1m[35m (90.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  commit transaction
+Completed 201 Created in 96ms (Views: 0.6ms | ActiveRecord: 90.8ms)
+
+
+Started POST "/games/3/make_move" for ::1 at 2015-12-24 01:16:02 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "location"=>"7", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "other"]]
+  [1m[35mGame Load (0.0ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "boards" SET "grid" = ? WHERE "boards"."id" = ?[0m  [["grid", "---\n- - x\n  - o\n  - ''\n- - x\n  - ''\n  - ''\n- - o\n  - ''\n  - ''\n"], ["id", 3]]
+  [1m[35m (90.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  commit transaction
+Completed 201 Created in 96ms (Views: 0.5ms | ActiveRecord: 90.5ms)
+
+
+Started POST "/games/3/make_move" for ::1 at 2015-12-24 01:16:15 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"5", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "iangarrett"]]
+  [1m[35mGame Load (0.0ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "boards" SET "grid" = ? WHERE "boards"."id" = ?[0m  [["grid", "---\n- - x\n  - o\n  - ''\n- - x\n  - x\n  - ''\n- - o\n  - ''\n  - ''\n"], ["id", 3]]
+  [1m[35m (92.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  commit transaction
+Completed 201 Created in 98ms (Views: 0.5ms | ActiveRecord: 92.7ms)
+
+
+Started POST "/games/3/make_move" for ::1 at 2015-12-24 01:16:21 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "location"=>"9", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "other"]]
+  [1m[35mGame Load (0.0ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "boards" SET "grid" = ? WHERE "boards"."id" = ?[0m  [["grid", "---\n- - x\n  - o\n  - ''\n- - x\n  - x\n  - ''\n- - o\n  - ''\n  - o\n"], ["id", 3]]
+  [1m[35m (128.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  commit transaction
+Completed 201 Created in 134ms (Views: 0.6ms | ActiveRecord: 128.5ms)
+
+
+Started POST "/games/3/make_move" for ::1 at 2015-12-24 01:16:32 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"6", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "iangarrett"]]
+  [1m[35mGame Load (0.0ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "boards" SET "grid" = ? WHERE "boards"."id" = ?[0m  [["grid", "---\n- - x\n  - o\n  - ''\n- - x\n  - x\n  - x\n- - o\n  - ''\n  - o\n"], ["id", 3]]
+  [1m[35m (90.6ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mSQL (0.1ms)[0m  UPDATE "games" SET "status" = ?, "updated_at" = ? WHERE "games"."id" = ?  [["status", "winner"], ["updated_at", "2015-12-24 01:16:32.954761"], ["id", 3]]
+  [1m[36m (92.5ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 190ms (Views: 0.6ms | ActiveRecord: 183.6ms)
+
+
+Started POST "/games/3/status" for ::1 at 2015-12-24 01:16:43 -0800
+Processing by GamesController#status as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "iangarrett"]]
+  [1m[36mGame Load (0.0ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mBoard Load (0.0ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 3]]
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/games/3/status" for ::1 at 2015-12-24 01:16:48 -0800
+Processing by GamesController#status as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "other"]]
+  [1m[35mGame Load (0.0ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 3]]
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/games/3/make_move" for ::1 at 2015-12-24 01:16:51 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"6", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "iangarrett"]]
+  [1m[36mGame Load (0.0ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mBoard Load (0.0ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 3]]
+Completed 422 Unprocessable Entity in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/games/3/make_move" for ::1 at 2015-12-24 01:17:14 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "location"=>"6", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "other"]]
+  [1m[35mGame Load (0.0ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 3ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/games/3/make_move" for ::1 at 2015-12-24 01:19:36 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "location"=>"6", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "other"]]
+  [1m[36mGame Load (0.1ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mBoard Load (0.1ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 3]]
+Completed 422 Unprocessable Entity in 14ms (Views: 1.1ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/games/3/make_move" for ::1 at 2015-12-24 01:19:41 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "location"=>"8", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "other"]]
+  [1m[35mGame Load (0.0ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mUPDATE "boards" SET "grid" = ? WHERE "boards"."id" = ?[0m  [["grid", "---\n- - x\n  - o\n  - ''\n- - x\n  - x\n  - x\n- - o\n  - o\n  - o\n"], ["id", 3]]
+  [1m[35m (94.2ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.0ms)[0m  commit transaction
+DEPRECATION WARNING: ** Notice: embed is deprecated. **
+The use of .embed method on a Serializer will be soon removed, as this should have a global scope and not a class scope.
+Please use the global .setup method instead:
+ActiveModel::Serializer.setup do |config|
+  config.embed = :ids
+  config.embed_in_root = false
+end
+ (called from <class:UserSerializer> at /Users/iangarrett/Desktop/ticTacToe/app/serializers/user_serializer.rb:2)
+Completed 201 Created in 104ms (Views: 1.8ms | ActiveRecord: 94.8ms)
+
+
+Started POST "/games/3/make_move" for ::1 at 2015-12-24 01:21:50 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "location"=>"8", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "other"]]
+  [1m[35mGame Load (0.1ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mBoard Load (0.1ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 3]]
+Completed 422 Unprocessable Entity in 12ms (Views: 1.0ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/games/3/make_move" for ::1 at 2015-12-24 01:21:56 -0800
+Processing by GamesController#make_move as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "location"=>"8", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "iangarrett"]]
+  [1m[36mGame Load (0.0ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mBoard Load (0.0ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 3]]
+Completed 422 Unprocessable Entity in 2ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/games/3/status" for ::1 at 2015-12-24 01:22:18 -0800
+Processing by GamesController#status as */*
+  Parameters: {"username"=>"iangarrett", "password"=>"[FILTERED]", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1[0m  [["username", "iangarrett"]]
+  [1m[35mGame Load (0.0ms)[0m  SELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mBoard Load (0.0ms)[0m  [1mSELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1[0m  [["id", 3]]
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/games/3/status" for ::1 at 2015-12-24 01:22:23 -0800
+Processing by GamesController#status as */*
+  Parameters: {"username"=>"other", "password"=>"[FILTERED]", "id"=>"3", "game"=>{}}
+Can't verify CSRF token authenticity
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."username" = ? LIMIT 1  [["username", "other"]]
+  [1m[36mGame Load (0.0ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mBoard Load (0.0ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 3]]
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/games/3" for ::1 at 2015-12-24 01:22:26 -0800
+
+ActionController::RoutingError (No route matches [POST] "/games/3"):
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /Library/Ruby/2.2.0/gems/web-console-2.2.1/lib/web_console/middleware.rb:39:in `call'
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:38:in `call_app'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `block in call'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/rack/logger.rb:20:in `call'
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/methodoverride.rb:22:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/runtime.rb:18:in `call'
+  /Library/Ruby/2.2.0/gems/activesupport-4.2.4/lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/static.rb:116:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/sendfile.rb:113:in `call'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/engine.rb:518:in `call'
+  /Library/Ruby/2.2.0/gems/railties-4.2.4/lib/rails/application.rb:165:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/lock.rb:17:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+  /Library/Ruby/2.2.0/gems/rack-1.6.4/lib/rack/handler/webrick.rb:88:in `service'
+  /usr/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.2ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.5ms)
+  Rendered /Library/Ruby/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.4ms)
+Cannot render console with content type application/jsonAllowed content types: [#<Mime::Type:0x000000035dabd0 @synonyms=["application/xhtml+xml"], @symbol=:html, @string="text/html">, #<Mime::Type:0x000000035da838 @synonyms=[], @symbol=:text, @string="text/plain">, #<Mime::Type:0x000000035d6a08 @synonyms=[], @symbol=:url_encoded_form, @string="application/x-www-form-urlencoded">]
+
+
+Started GET "/games/3" for ::1 at 2015-12-24 01:22:35 -0800
+Processing by GamesController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mGame Load (0.1ms)[0m  [1mSELECT  "games".* FROM "games" WHERE "games"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mBoard Load (0.1ms)[0m  SELECT  "boards".* FROM "boards" WHERE "boards"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+DEPRECATION WARNING: ** Notice: embed is deprecated. **
+The use of .embed method on a Serializer will be soon removed, as this should have a global scope and not a class scope.
+Please use the global .setup method instead:
+ActiveModel::Serializer.setup do |config|
+  config.embed = :ids
+  config.embed_in_root = false
+end
+ (called from <class:UserSerializer> at /Users/iangarrett/Desktop/ticTacToe/app/serializers/user_serializer.rb:2)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.4ms)

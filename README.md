@@ -8,6 +8,18 @@
 `rake db:migrate`
 `rails s`
 
+## What I added
+1) User authentication
+2) End of game information report (Who won, game was a tie)
+3) End of game lockout (game cannot be updated once game has ended
+4) Force correct turn (one player cannot go twice in a row)
+
+## How to check end of game info
+'''
+curl -X POST -H 'content-type: application/json' -d '{"username":<username>,"password":<password>}' http://localhost:3000/games/<game>/status
+'''
+
+
 ## User Curl Commands
 
 ### Creating a User
@@ -15,8 +27,8 @@
 ```
 curl --request POST --header "Content-Type: application/json" -d '{
   "user": {
-    "username": "ianjgarrett",
-    "password": "yaycasper"
+    "username": "johndoe",
+    "password": "foobarbaz"
   }
 }' http://localhost:3000/users
 ```
@@ -41,6 +53,8 @@ example response
 
 ```
 curl --request PATCH --header "Content-Type: application/json" -d '{
+  "username": "johndoe",
+  "password": "foobarbaz",
   "user": {
     "username": "henry"
   }
@@ -55,7 +69,10 @@ example response
 ### Destroying a User
 
 ```
-curl --request DELETE --header "Content-Type: application/json" -d '{}' http://localhost:3000/users/1
+curl --request DELETE --header "Content-Type: application/json" -d '{
+  "username": "henry",
+  "password": "foobarbaz"
+}' http://localhost:3000/users/1
 ```
 
 ### Creating a Game
@@ -84,12 +101,28 @@ example response
 {"game":{"id":1,"status":"Game in Progress","board":[["","",""],["","",""],["","",""]],"created_at":"2015-10-16T15:44:08.583Z","updated_at":"2015-10-16T15:44:08.583Z","player_1_id":1,"player_2_id":null}}
 ```
 
+### Show a Game's Status
+
+```
+curl --request POST --header "Content-Type: application/json" -d '{
+  "username": "johndoe",
+  "password": "foobarbaz"
+}' http://localhost:3000/games/1/status
+```
+
+example response
+```
+{"status":"Game in Progress"}
+```
+
 ### Updating/Joining a game
 
 ```
 curl --request PATCH --header "Content-Type: application/json" -d '{
+  "username": "johndoe",
+  "password": "foobarbaz"
   "game": {
-    "player_2_id": "3"
+    "player_2_id": "2"
   }
 }' http://localhost:3000/games/1
 ```
@@ -102,7 +135,10 @@ example response
 ### Destroy a Game
 
 ```
-curl --request DELETE --header "Content-Type: application/json" -d '{}' http://localhost:3000/games/1
+curl --request DELETE --header "Content-Type: application/json" -d '{
+  "username": "johndoe",
+  "password": "foobarbaz"
+}' http://localhost:3000/games/1
 ```
 
 
@@ -130,7 +166,9 @@ Choose a location where you want to post your move
 
 ```
 curl --request POST --header "Content-Type: application/json" -d '{
-  "location": "1", "move": "x"
+  "username": "johndoe",
+  "password": "foobarbaz",
+  "location": "1"
 }' http://localhost:3000/games/2/make_move
 ```
 
@@ -159,8 +197,8 @@ example response
 ```
 
 ## Todo List
- - User authentication
- - Make it two player
- - Ability to switch players
- - Showing which player has one
+ - User authentication (DONE)
+ - Make it two player (DONE)
+ - Ability to switch players (DONE)
+ - Showing which player has one (DONE)
  - Ability to play against the computer

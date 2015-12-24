@@ -14,6 +14,7 @@ class UsersController < ApplicationController
     end
   end
 
+  # update the user, only allowed by the user themself
   def update
     # process the user's credentials
     return render json: { errors: ['not authenticated'] }, status: 403 unless username_and_password?
@@ -31,6 +32,7 @@ class UsersController < ApplicationController
     end
   end
 
+  # destroy the user, only allowed by the user themself
   def destroy
     # process the user's credentials
     return render json: { errors: ['not authenticated'] }, status: 403 unless username_and_password?
@@ -47,6 +49,7 @@ class UsersController < ApplicationController
 
   private
 
+  # check if both a username and password were provided
   def username_and_password?
     params[:username].present? && params[:password].present?
   end

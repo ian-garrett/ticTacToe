@@ -17,12 +17,14 @@ class Board < ActiveRecord::Base
     end
   end
 
+  # returns the current status of the game - whether the game is over, and the result of the game
   def status
     return :winner if winner?
     return :tie if tie?
     'Game in Progress'
   end
 
+  # returns :player_1 or :player_2 depending on who won
   def winning_player
     return :player_1 if who_won == 'x'
     :player_2
@@ -50,6 +52,7 @@ class Board < ActiveRecord::Base
     grid.flatten.none_empty?
   end
 
+  # returns true if someone has won
   def winner?
     winning_combinations.each do |winning_position|
       next if winning_position.all_empty?
@@ -58,6 +61,7 @@ class Board < ActiveRecord::Base
     false
   end
 
+  # returns the 'x' or 'o' corresponding to the winner, or nil if nobody has won
   def who_won
     winning_combinations.each do |winning_position|
       next if winning_position.all_empty?

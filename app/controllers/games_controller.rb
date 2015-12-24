@@ -16,6 +16,7 @@ class GamesController < ApplicationController
     end
   end
 
+  # update the game (only allowed by the participants)
   def update
     # process the user's credentials
     return render json: { errors: ['not authenticated'] }, status: 403 unless username_and_password?
@@ -32,6 +33,7 @@ class GamesController < ApplicationController
     end
   end
 
+  # destroy the game (only allowed by the participants)
   def destroy
     # process the user's credentials
     return render json: { errors: ['not authenticated'] }, status: 403 unless username_and_password?
@@ -45,6 +47,7 @@ class GamesController < ApplicationController
     head 204
   end
 
+  # get the person status of the game for the authenticated user
   def status
     # process the user's credentials
     return render json: { errors: ['not authenticated'] }, status: 403 unless username_and_password?
@@ -56,6 +59,7 @@ class GamesController < ApplicationController
     render json: { status: game.game_over_message(user_id) }, status: 200
   end
 
+  # make an authenticated move on the current game
   def make_move
     # process the user's credentials
     return render json: { errors: ['not authenticated'] }, status: 403 unless username_and_password?
@@ -85,6 +89,7 @@ class GamesController < ApplicationController
 
   private
 
+  # check if both a username and password were provided
   def username_and_password?
     params[:username].present? && params[:password].present?
   end

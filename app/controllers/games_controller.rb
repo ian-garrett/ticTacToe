@@ -16,15 +16,9 @@ class GamesController < ApplicationController
     end
   end
 
-  # update the game (only allowed by the participants)
+  # update the game 
   def update
-    # process the user's credentials
-    return render json: { errors: ['not authenticated'] }, status: 403 unless username_and_password?
-    user_id = User.authenticate(params[:username], params[:password])
-    return render json: { errors: ['not authenticated'] }, status: 403 if user_id.nil?
-
     game = Game.find(params[:id])
-    return render json: { errors: ['not a participant'] }, status: 403 unless game.has_user(user_id)
 
     if game.update(game_params)
       render json: game, status: 200, location: [game]

@@ -14,7 +14,6 @@
 2. End of game information report (Who won, game was a tie)
 3. End of game lockout (game cannot be updated once game has ended
 4. Force correct turn (one player cannot go twice in a row)
-=======
 
 
 ## User Curl Commands

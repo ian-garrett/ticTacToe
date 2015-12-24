@@ -34,4 +34,10 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:username, :password)
   end
+
+  def self.authenticate(username, password)
+    user = User.find_by(username: username)
+    return user.id if user.password == password
+  end
+  
 end

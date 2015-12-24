@@ -30,12 +30,18 @@ class GamesController < ApplicationController
     head 204
   end
 
-  def make_move
+  # modified to check for user and display end game notifications
+ def make_move
+    user_id = User.authenticate(params[:username], params[:password])
+    return render json: { errors: 'not authenticated' }, status: 403 if user_id.nil?
     game = Game.find(params[:id])
+    return render json: { errors: 'not a participant' }, status: 403 unless game.has_user(user_id)
+    return render json: { errors: 'game already over' }, status: 422 if [:winner, :tie].include?(game.status)
+    return render json: { errors: 'not your turn' }, status: 422 unless game.next_player() == user_id
     return render json: { errors: 'move and location are required' }, status: 422 unless move_and_location?
     game.play(params[:move].to_s, params[:location].to_s)
     if game.save
-      render json: [game,"GAME STATUS: "+game.game_over_message], status: 201
+      render json: game, status: 201, location: [game]
     else
       render json: { errors: game.errors }, status: 422
     end

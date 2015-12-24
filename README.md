@@ -15,7 +15,7 @@
 ```
 curl --request POST --header "Content-Type: application/json" -d '{
   "user": {
-    "username": "iangarrett",
+    "username": "ianjgarrett",
     "password": "yaycasper"
   }
 }' http://localhost:3000/users
@@ -89,7 +89,7 @@ example response
 ```
 curl --request PATCH --header "Content-Type: application/json" -d '{
   "game": {
-    "player_2_id": "2"
+    "player_2_id": "3"
   }
 }' http://localhost:3000/games/1
 ```

@@ -47,4 +47,9 @@ class Game < ActiveRecord::Base
       '7' => [0, 2], '8' => [1, 2], '9' => [2, 2]
     }[human_move]
   end
+
+  #verify user
+  def has_user(user_id)
+    [self.player_1_id, self.player_2_id].include?(user_id)
+  end
 end

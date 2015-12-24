@@ -64,4 +64,17 @@ class Board < ActiveRecord::Base
   def right_diagonal
     [get_cell(0, 2), get_cell(1, 1), get_cell(2, 0)]
   end
+
+  #function to decide which player should go next
+  def next_player
+    count1 = 0
+    count2 = 0
+    grid.flatten.each do |move|
+      count1 += 1 if move == 'x'
+      count2 += 1 if move == 'o'
+    end
+    return :player_1 if count1 <= count2
+    :player_2
+  end
+
 end

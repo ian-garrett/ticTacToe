@@ -6,6 +6,7 @@
 `git clone repo`
 `cd tictactoeapi`
 `rake db:migrate`
+`bundle exec rake db:migrate`
 `rails s`
 
 ## What I added
